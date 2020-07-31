@@ -1,0 +1,72 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,
+button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0;}
+html{color:black;font-size:62.5%;}
+body{font:14px/1.5 "微软雅黑";color:#666;outline:0;}
+input,select,textarea{font-size:100%;outline-style:none;background:transparent;font-family:"微软雅黑";}
+input,button{border:none medium;outline:none;font-family:"微软雅黑";}
+button, html input[type="button"], input[type="submit"]{cursor:pointer;}
+button[disabled], html input[disabled]{cursor:default;}
+address,caption,cite,code,dfn,em,th,var,i{font-style:normal;font-weight:500;}
+ol,ul,li,dl,dt,dd{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-weight:500;}
+sub, sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
+abbr,acronym{border:none;font-variant:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+img{border:0 none;vertical-align:middle;}
+caption,th{text-align:left;}
+th{text-align:inherit;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+del{text-decoration:line-through;}
+legend{color:#666;}
+fieldset{border:none;}
+iframe{display:block;}
+q:before,q:after{content:'';}
+ins,a{text-decoration:none;cursor:pointer;color: #666;}
+a:hover{color: #ea5400;}
+a:focus,*:focus{outline:none;}
+/*Custom*/
+.clearfix:before,.clearfix:after{content:"";clear:both;display:block;height:0;visibility:hidden;}
+.clearfix:after{clear:both;overflow:hidden;}
+.clearfix{zoom:1;clear: both;}
+.clear{clear:both;display:block;overflow:hidden;height:0;line-height:0;font-size:0;}
+.radius_1{-moz-border-radius:1px;-webkit-border-radius:1px;border-radius:1px;}
+.radius_2{-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;}
+.radius_3{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+.radius_5{-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;}
+.radius_t5{-moz-border-radius:5px 5px 0px 0px;-webkit-border-radius:5px 5px 0px 0px;border-radius:5px 5px 0px 0px;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.fl{float:left;display:inline;}
+.fr{float:right;display:inline;}
+.di{display:inline;}
+.dib{display:inline-block;*zoom:1;*display:inline;vertical-align: middle;}
+.db{display:block;}
+div,ul,ol{margin: auto;}
+.fm_w{font-family: "微软雅黑";}
+.fm_s{font-family: "宋体";}
+.fs12{font-size: 12px;}
+.fs13{font-size: 13px;}
+.fs14{font-size: 14px;}
+.fs16{font-size: 16px;}
+.fs18{font-size: 18px;}
+.fs20{font-size: 20px;}
+.fs24{font-size: 24px;}
+.fs26{font-size: 26px;}
+.fs30{font-size: 30px;}
+.tl{text-align: left;}
+.tc{text-align: center;}
+.tr{text-align: right;}
+
+
+
+/*@font-face {*/
+/*font-family: '苹果';*/
+/*src: url('../font/华康俪金黑W8.otf'); /!* IE9 Compat Modes *!/*/
+/*src: url('../font/华康俪金黑W8.eot?#iefix') format('embedded-opentype'), /!* IE6-IE8 *!/*/
+/*url('../font/华康俪金黑W8.woff') format('woff'), /!* Modern Browsers *!/*/
+/*url('../font/__HiraginoSansGB-W3.ttf')  format('truetype'), !* Safari, Android, iOS *!*/
+/*url('../font/华康俪金黑W8.svg#YourWebFontName') format('svg'); /!* Legacy iOS *!/*/
+/*}*/
